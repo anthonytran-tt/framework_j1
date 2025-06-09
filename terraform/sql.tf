@@ -25,11 +25,13 @@ resource "azurerm_mssql_firewall_rule" "allow_azure_services" {
   start_ip_address = "0.0.0.0"
   end_ip_address   = "0.0.0.0"
 }
+
 # Add firewall rule to allow connection from personal ip address:
 data "http" "my_ip" {
 # This will dynamically grab the users IP address.
-  url = "https://api64.ipify.org?format=text"
+  url = "https://api.ipify.org"
 }
+
 # Create firewall rule with the individuals ip address:
 resource "azurerm_mssql_firewall_rule" "allow_my_ip" {
   name             = "AllowMyIP"
