@@ -1,11 +1,10 @@
 {
-    "$schema": "../src/json_schema/azure_metadata_database_schema.json",
     "name": "Metadata Database",
     "properties": {
         "annotations": [],
         "type": "AzureSqlDatabase",
         "typeProperties": {
-            "server": "fj1sqlserver-mw3wumy.database.windows.net",
+            "server": "fj1sqlserver-1buhpr4.database.windows.net",
             "database": "fj1-metadata-uks",
             "encrypt": "mandatory",
             "trustServerCertificate": false,
@@ -20,5 +19,6 @@
                 "secretName": "sqlPassword"
             }
         }
-    }
+    },
+    "$schema": "../src/json_schema/azure_metadata_database_schema.json"
 }
