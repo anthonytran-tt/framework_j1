@@ -1,11 +1,11 @@
 {
-    "name": "Azure Key Vault",
-    "properties": {
-        "annotations": [],
-        "type": "AzureKeyVault",
-        "typeProperties": {
-            "baseUrl": "https://fj1-kv-dev-uks-0gxwzvn.vault.azure.net/"
-        }
-    },
-    "$schema": "../src/json_schema/azure_keyvault_schema.json"
+	"name": "Azure Key Vault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://fj1-kv-dev-uks-0gxwzvn.vault.azure.net/"
+		}
+	},
+	"$schema": "../src/json_schema/azure_keyvault_schema.json"
 }
