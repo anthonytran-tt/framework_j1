@@ -4,7 +4,7 @@
         "annotations": [],
         "type": "AzureKeyVault",
         "typeProperties": {
-            "baseUrl": "https://fj1-kv-dev-uks-1buhpr4.vault.azure.net/"
+            "baseUrl": "https://fj1-kv-dev-uks-0gxwzvn.vault.azure.net/"
         }
     },
     "$schema": "../src/json_schema/azure_keyvault_schema.json"
